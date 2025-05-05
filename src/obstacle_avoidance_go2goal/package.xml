@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>obstacle_avoidance_go2goal</name>
+  <version>0.1.0</version>
+  <description>Simulation of obstacle avoidance and go-to-goal behavior using Webots and ROS 2</description>
+
+  <maintainer email="azat@todo.todo">azat</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>rclpy</depend>
+  <depend>geometry_msgs</depend>
+  <depend>sensor_msgs</depend>
+  <depend>nav_msgs</depend>
+  <depend>std_msgs</depend>
+  <exec_depend>webots_ros2_driver</exec_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

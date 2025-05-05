@@ -1,0 +1,110 @@
+#VRML_SIM R2025a utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/floors/protos/CircleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/factory/containers/protos/WoodenBox.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/robots/robotis/turtlebot/protos/TurtleBot3Burger.proto"
+
+WorldInfo {
+  basicTimeStep 64
+}
+Viewpoint {
+  orientation 0.5795375438078137 0.35592557085619986 0.7331120128110673 3.9877063180865493
+  position -0.25840722925025844 5.933153249431807 -16.89980739132536
+  follow "TurtleBot3Burger"
+  followType "Pan and Tilt Shot"
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+CircleArena {
+  radius 3
+  wallHeight 0.4
+}
+WoodenBox {
+  translation -1.62271 1.08968 0.15
+  name "wooden box(11)"
+  size 0.3 0.3 0.3
+}
+WoodenBox {
+  translation -1.62271 1.08968 0.15
+  name "wooden box(3)"
+  size 0.3 0.3 0.3
+}
+WoodenBox {
+  translation 0.467367 -0.545426 0.15
+  size 0.3 0.3 0.3
+}
+WoodenBox {
+  translation 1.26618 1.07342 0.15
+  name "wooden box(1)"
+  size 0.3 0.3 0.3
+}
+WoodenBox {
+  translation -0.15697 0.782967 0.15
+  name "wooden box(2)"
+  size 0.3 0.3 0.3
+}
+WoodenBox {
+  translation -1.09887 -0.301011 0.15
+  name "wooden box(4)"
+  size 0.3 0.3 0.3
+}
+WoodenBox {
+  translation -2.71307 -0.22263 0.15
+  name "wooden box(7)"
+  size 0.3 0.3 0.3
+}
+WoodenBox {
+  translation -0.744103 2.69736 0.15
+  name "wooden box(8)"
+  size 0.3 0.3 0.3
+}
+WoodenBox {
+  translation 2.30103 0.203241 0.15
+  name "wooden box(9)"
+  size 0.3 0.3 0.3
+}
+WoodenBox {
+  translation 0.005323 -1.57959 0.15
+  name "wooden box(5)"
+  size 0.3 0.3 0.3
+}
+WoodenBox {
+  translation -1.0974 -1.8598 0.15
+  name "wooden box(6)"
+  size 0.3 0.3 0.3
+}
+TurtleBot3Burger {
+  hidden position_0_0 4899.841429758417
+  hidden position_0_1 4407.034717545897
+  hidden position_0_2 -13739.242575986362
+  hidden position2_0_2 -6593.4669590198
+  hidden position3_0_2 -136555.67456434597
+  hidden linearVelocity_0 -1667.0079789514286 -3766.913988081762 17400.37157199269
+  hidden angularVelocity_0 -5250.16776735865 -3257.6697860359536 7862.781058870756
+  hidden position_1_0 29065.54879998912
+  hidden position_1_1 57681.1007999788
+  hidden rotation_2 -0.9479427060976862 -0.2251713275221849 -0.22517215462417353 1.6242357618337417
+  hidden translation_3 -0.04089916385564954 -0.00999999999999999 -0.045716315147094774
+  hidden rotation_3 -0.6200880612935415 0.5547470303738831 0.554749068077248 2.0314772747700593
+  hidden rotation_8 0 -0.9999999999999999 0 2.6139058416606717
+  hidden linearVelocity_8 -12900.484580227943 -11839.69131746544 9375.22091451442
+  hidden angularVelocity_8 -5084.7854056853885 -4128.607185570452 7556.4250863344705
+  hidden rotation_9 0.8890604553482638 -2.2159645734082955e-06 -0.4577898062768844 3.1415940727099434
+  hidden linearVelocity_9 2289.7407111215616 6395.981024250941 23871.75732477054
+  hidden angularVelocity_9 -5386.640065436785 -2185.642920805132 8136.7729369920135
+  hidden rotation_10 -0.7869007277627588 -0.5576048580782853 0.26431811684774015 1.249405719971056
+  hidden linearVelocity_10 -13409.051459434002 2432.6793039053637 16291.275633500049
+  hidden angularVelocity_10 -1990.1354341648685 -9799.96739534591 3.089151616233361e-08
+  translation -40878.38374688304 -80482.68274725522 380698.72439794976
+  rotation 0.8540623829505811 0.11334429409674125 0.5076716626171747 -1.0196834248681617
+  controller "turtlebot3_ostacle_avoidance"
+}
+WoodenBox {
+  translation -1.62271 1.08968 0.15
+  name "wooden box(10)"
+  size 0.3 0.3 0.3
+}
